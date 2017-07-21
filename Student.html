@@ -295,7 +295,7 @@ desired effect
             </span>
           </a>
         </li>
-        <li class="active  treeview ">
+        <li class="treeview ">
           <a href="Assignments.html">
             <i class="fa fa-file-o"></i> <span>Assignments</span>
             <span class="pull-right-container">
@@ -335,7 +335,7 @@ desired effect
             </span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="active treeview">
           <a href="Student.html">
             <i class="fa  fa-user"></i> <span>Students</span>
             <span class="pull-right-container">
@@ -383,7 +383,14 @@ desired effect
             </span>
           </a>
         </li>
+        <li class="treeview">
+          <a href="Reviews.html">
+            <i class="fa  fa-star"></i> <span>Reviews</span>
+            <span class="pull-right-container">
 
+            </span>
+          </a>
+        </li>
         </li>
       </ul>
       <!-- /.sidebar-menu -->
@@ -399,14 +406,18 @@ desired effect
       Student
       </h1>
       <ol class="breadcrumb">
-        <button type="button" class="btn btn-info btn-sm " data-toggle="modal" data-target="#modal-info">
-          Add
-        </button>
-        <li></li>
+        <div class="form-group">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default btn-sm " data-toggle="modal" data-target="#modal-info"><i class="fa  fa-plus"> Add</i></button>
+            <button type="button" class="btn btn-default btn-sm"><i class="fa  fa-file-pdf-o text-red"> </i></button>
+            <button type="button" class="btn btn-default btn-sm "><i class="fa   fa-search"></i></button>
+          </div>
+
+        </div>
       </ol>
     </section>
 
-    <div class="modal modal-info fade" id="modal-info">
+    <div class="modal modal-info fade" id="#">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
@@ -448,8 +459,9 @@ desired effect
                         <button type="button" class="btn btn-default btn-sm"><i class="fa fa-check"> Grades</i></button>
                           <button type="button" class="btn btn-default btn-sm"><i class="fa fa-key"> Password</i></button>
                           <button type="button" class="btn btn-default btn-sm"><i class="fa fa-star"> Award</i></button>
-                          <button type="button" class="btn btn-default btn-sm"><i class="fa fa-minus-square"> Unenroll</i></button>
-                        <button type="button" class="btn btn-default btn-sm"><i class="fa fa-gear"></i> Setting</button>
+                          <button type="button" class="btn btn-default btn-sm"><i class="fa fa-minus"> Unenroll</i></button>
+                        <button type="button" class="btn btn-default btn-sm"><i class="fa  fa-arrow-right"></i> Transfer</button>
+                          <button type="button" class="btn btn-default btn-sm"><i class="fa  fa-rotate-left"></i> Deactivate</button>
                         </div>
                         <!-- /.btn-group -->
 
